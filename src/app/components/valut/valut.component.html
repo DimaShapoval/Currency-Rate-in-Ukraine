@@ -1,0 +1,27 @@
+<main>
+    <div class="main-wrapper">
+        <div class="input-wrapper">
+            <input type="number" class="doll-inpt"  value="{{dollar.toFixed(2)}}" (input)="UAH(inputUSD.value, select1, select2)" #inputUSD >
+            <select class="select-valut"name="valut"  (change)="UAH(inputUSD.value, select1, select2)" id="" #select1>
+                <option value="doll">USD</option>
+                <option value="euro">EUR</option>
+                <option value="uah">UAH</option>
+           
+            </select>
+           <div class="button-wrapper">
+            <img src="https://w7.pngwing.com/pngs/923/729/png-transparent-arrow-computer-icons-arrow-angle-triangle-black.png" alt="" class="change-arrows" > 
+            <button type="button" class="change-button" (click)="changeSumm(inputUAH.value, inputUSD.value, select1, select2)"></button>
+        </div>
+            
+            <input type="number" class="input-uah"  value="{{kursDollara.toFixed(2)}}" (input)="USD(inputUAH.value, select2, select1)" #inputUAH >
+            <select class="select-valut"name="valut" id="" (change)="USD(inputUAH.value, select2, select1)"   #select2>
+                <option value="doll">USD</option>
+                <option value="euro">EUR</option>
+                <option value="uah" selected>UAH</option>
+            </select>
+            
+        </div>
+    </div>
+    
+</main> 
+

@@ -1,0 +1,55 @@
+.input-wrapper{
+    position: absolute;
+    display: flex;
+    top: 40%;
+    left: 21%;
+    width: 55%;
+    height: 200px;
+    background-color: #F0F0F0;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.select-valut{
+    display: flex;
+    width: 58px;
+    height: 60px;
+    border-radius: 1px;
+    border: 0px;
+}
+.select-valut:hover{
+    border: 2px solid #ddb5af;
+}
+.doll-inpt{
+    width: 25%;
+    height: 60px;
+    border-radius: 10px 0 0 10px;
+    border: 0px;
+}
+.doll-inpt:hover{
+    border: 2px solid #ddb5af;
+}
+.input-uah{
+    width: 25%;
+    height: 60px;
+    border-radius: 10px 0 0 10px;
+    border: 0px;
+}
+.input-uah:hover{
+    border: 2px solid #ddb5af;
+}
+.change-arrows{
+    width: 60px;
+    height: 34px;
+    margin: 20px;
+}
+.change-button{
+    position: absolute;
+    opacity: 0;
+    width: 65px;
+    height: 39px;
+    border-radius: 40px;
+    
+}
+
